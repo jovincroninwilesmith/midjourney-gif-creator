@@ -1,0 +1,29 @@
+{
+  "name": "midjourney-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-gif": "npx ts-node src/index.ts",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "canvas": "^2.9.3",
+    "dotenv": "^16.0.1",
+    "gif-encoder-2": "^1.0.5",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.0.6",
+    "@types/pg": "^8.6.5",
+    "@types/yargs": "^17.0.11",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
